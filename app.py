@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 from PIL import Image
 
-pickle_in = open('classifier.pkl', 'rb')
+pickle_in = open('classifier.pickle', 'rb')
 classifer = pickle.load(pickle_in)
 
 
